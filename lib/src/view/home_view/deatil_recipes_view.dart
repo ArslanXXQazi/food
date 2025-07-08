@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:food/src/text_widget.dart';
-import 'package:food/src/models/recipe_model.dart';
+import 'package:food/src/models/recipe.dart';
 
 class DeatilRecipesView extends StatelessWidget {
-  final RecipeModel recipe;
+  final Recipe recipe;
   const DeatilRecipesView({super.key, required this.recipe});
 
   @override
@@ -28,7 +28,7 @@ class DeatilRecipesView extends StatelessWidget {
 }
 
 class _DeatilRecipesBody extends StatefulWidget {
-  final RecipeModel recipe;
+  final Recipe recipe;
   const _DeatilRecipesBody({required this.recipe});
   @override
   State<_DeatilRecipesBody> createState() => _DeatilRecipesBodyState();
@@ -48,7 +48,7 @@ class _DeatilRecipesBodyState extends State<_DeatilRecipesBody> {
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
             child: Image.network(
-              recipe.image,
+              recipe.image ?? '',
               height: 200,
               width: double.infinity,
               fit: BoxFit.cover,
@@ -62,7 +62,7 @@ class _DeatilRecipesBodyState extends State<_DeatilRecipesBody> {
             children: [
               Expanded(
                 child: GreenText(
-                  text: recipe.name,
+                  text: recipe.title ?? '',
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
                   textColor: Colors.black,
@@ -77,7 +77,7 @@ class _DeatilRecipesBodyState extends State<_DeatilRecipesBody> {
                   const Icon(Icons.local_fire_department, color: Colors.red, size: 18),
                   const SizedBox(width: 4),
                   GreenText(
-                    text: '${recipe.kcal} kcal',
+                    text: '${recipe.calories ?? ''} kcal',
                     fontSize: 14,
                     textColor: Colors.red,
                     fontWeight: FontWeight.w500,
@@ -91,7 +91,7 @@ class _DeatilRecipesBodyState extends State<_DeatilRecipesBody> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           child: GreenText(
-            text: recipe.description,
+            text: recipe.description ?? '',
             fontSize: 14,
             textColor: Colors.black87,
             textAlign: TextAlign.left,
@@ -116,18 +116,20 @@ class _DeatilRecipesBodyState extends State<_DeatilRecipesBody> {
               if (selectedTab == 0) {
                 return ListView(
                   padding: const EdgeInsets.all(16),
-                  children: recipe.ingredients.map((item) => GreenText(text: '• $item', fontSize: 15, textAlign: TextAlign.left)).toList(),
+                  children: (recipe.ingredients ?? []).map((item) => GreenText(text: '• $item', fontSize: 15, textAlign: TextAlign.left)).toList(),
                 );
               } else if (selectedTab == 1) {
                 return ListView(
                   padding: const EdgeInsets.all(16),
-                  children: recipe.steps.asMap().entries.map((entry) => GreenText(text: '${entry.key + 1}. ${entry.value}', fontSize: 15, textAlign: TextAlign.left)).toList(),
+                  children: (recipe.steps ?? []).asMap().entries.map((entry) => GreenText(text: '${entry.key + 1}. ${entry.value}', fontSize: 15, textAlign: TextAlign.left)).toList(),
                 );
               } else {
                 return ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    GreenText(text: recipe.healthInfo, fontSize: 15, textAlign: TextAlign.left),
+                    GreenText(text: recipe.healthBenefits ?? '', fontSize: 15, textAlign: TextAlign.left),
+                    if ((recipe.allergyWarning ?? '').isNotEmpty)
+                      GreenText(text: 'Allergy: ${recipe.allergyWarning}', fontSize: 14, textColor: Colors.red, textAlign: TextAlign.left),
                   ],
                 );
               }

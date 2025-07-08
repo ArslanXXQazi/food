@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food/src/text_widget.dart';
 import 'package:food/src/models/data.dart';
+import 'package:food/src/models/recipe.dart';
 import 'recips_view.dart';
 
 class HomeView extends StatelessWidget {
@@ -8,11 +9,12 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final categories = ['Breakfast', 'Lunch', 'Dinner'];
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: GreenText(
-          text: "Food Categories",
+          text: "Recipes",
           fontSize: 25,
           fontWeight: FontWeight.w700,
           textColor: Colors.green,
@@ -35,7 +37,10 @@ class HomeView extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => RecipsView(category: category),
+                    builder: (_) => RecipsView(
+                      category: category,
+                      recipes: categoryRecipes[category] ?? [],
+                    ),
                   ),
                 );
               },
@@ -56,7 +61,7 @@ class HomeView extends StatelessWidget {
                     children: [
                       Positioned.fill(
                         child: Image.network(
-                          category.image,
+                          'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
                           fit: BoxFit.cover,
                           loadingBuilder: (context, child, loadingProgress) {
                             if (loadingProgress == null) return child;
@@ -72,43 +77,23 @@ class HomeView extends StatelessWidget {
                           },
                         ),
                       ),
-                      Positioned.fill(
+                      Positioned(
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
                         child: Container(
+                          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(20),
-                            gradient: LinearGradient(
-                              begin: Alignment.bottomCenter,
-                              end: Alignment.topCenter,
-                              colors: [
-                                Colors.black.withOpacity(0.6),
-                                Colors.transparent,
-                              ],
-                            ),
+                            color: Colors.black.withOpacity(0.5),
+                            borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
                           ),
-                        ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.end,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              GreenText(
-                                text: category.title,
-                                fontSize: 20,
-                                fontWeight: FontWeight.w700,
-                                textColor: Colors.white,
-                              ),
-                              const SizedBox(height: 4),
-                              GreenText(
-                                text: "${category.recipes.length} recipes",
-                                fontSize: 15,
-                                fontWeight: FontWeight.w600,
-                                textColor: Colors.white,
-                              ),
-                              const SizedBox(height: 16),
-                            ],
+                          child: GreenText(
+                            text: category,
+                            fontSize: 16,
+                            fontWeight: FontWeight.w700,
+                            textColor: Colors.white,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                       ),
