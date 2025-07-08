@@ -1,34 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:food/src/text_widget.dart';
+import 'package:food/src/models/data.dart';
+import 'recips_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final List<Map<String, dynamic>> foodCategories = [
-      {
-        'title': 'Breakfast',
-        'recipes': '252 recipes',
-        'image': 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
-      },
-      {
-        'title': 'Lunch',
-        'recipes': '180 recipes',
-        'image': 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c',
-      },
-      {
-        'title': 'Dinner',
-        'recipes': '300 recipes',
-        'image': 'https://images.unsplash.com/photo-1565958011703-44f9829ba187',
-      },
-      {
-        'title': 'Desserts',
-        'recipes': '150 recipes',
-        'image': 'https://images.unsplash.com/photo-1565958011703-44f9829ba187',
-      },
-    ];
-
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -48,13 +27,16 @@ class HomeView extends StatelessWidget {
             mainAxisSpacing: 16,
             childAspectRatio: 0.9,
           ),
-          itemCount: foodCategories.length,
+          itemCount: categories.length,
           itemBuilder: (context, index) {
-            final category = foodCategories[index];
+            final category = categories[index];
             return GestureDetector(
               onTap: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('${category['title']} tapped!')),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => RecipsView(category: category),
+                  ),
                 );
               },
               child: ClipRRect(
@@ -72,10 +54,9 @@ class HomeView extends StatelessWidget {
                   ),
                   child: Stack(
                     children: [
-                      // Modified image container with full coverage
                       Positioned.fill(
                         child: Image.network(
-                          category['image'],
+                          category.image,
                           fit: BoxFit.cover,
                           loadingBuilder: (context, child, loadingProgress) {
                             if (loadingProgress == null) return child;
@@ -91,7 +72,6 @@ class HomeView extends StatelessWidget {
                           },
                         ),
                       ),
-                      // Semi-transparent overlay
                       Positioned.fill(
                         child: Container(
                           decoration: BoxDecoration(
@@ -107,7 +87,6 @@ class HomeView extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // Text content
                       Center(
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -116,14 +95,14 @@ class HomeView extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               GreenText(
-                                text: category['title'],
+                                text: category.title,
                                 fontSize: 20,
                                 fontWeight: FontWeight.w700,
                                 textColor: Colors.white,
                               ),
                               const SizedBox(height: 4),
                               GreenText(
-                                text: category['recipes'], // Fixed typo here
+                                text: "${category.recipes.length} recipes",
                                 fontSize: 15,
                                 fontWeight: FontWeight.w600,
                                 textColor: Colors.white,

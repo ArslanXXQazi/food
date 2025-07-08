@@ -7,6 +7,8 @@ class GreenText extends StatelessWidget {
   final FontWeight? fontWeight;
   final Color? textColor;
   final TextAlign? textAlign; // New parameter
+  final int? maxLines;
+  final TextOverflow? overflow;
 
   const GreenText({
     super.key,
@@ -16,6 +18,8 @@ class GreenText extends StatelessWidget {
     this.fontWeight,
     this.textColor,
     this.textAlign, // Added to constructor
+    this.maxLines, // Added
+    this.overflow, // Added
   });
 
   @override
@@ -26,6 +30,8 @@ class GreenText extends StatelessWidget {
         text ?? "",
         textAlign: textAlign ??
             TextAlign.center, // Default to center, override if provided
+        maxLines: maxLines, // Added
+        overflow: overflow, // Added
         style: TextStyle(
           fontSize: fontSize ?? 16,
           fontWeight: fontWeight ?? FontWeight.w500,

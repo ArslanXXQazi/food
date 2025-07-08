@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/src/view/home_view/deatil_recipes_view.dart';
+import 'package:food/src/view/home_view/home_view.dart';
 import 'package:food/src/view/home_view/recips_view.dart';
 
 void main() {
@@ -32,9 +33,9 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DeatilRecipesView()
+      home: //DeatilRecipesView()
       ///RecipsView(),
-      //HomeView(),
+      HomeView(),
     );
   }
 }
