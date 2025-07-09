@@ -2505,7 +2505,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       userId: '21',
       title: 'British Shepherd’s Pie',
       description:
-          'Classic UK comfort dish with savory minced lamb and creamy mashed potatoes.',
+      'Classic UK comfort dish with savory minced lamb and creamy mashed potatoes.',
       calories: '500',
       healthBenefits:
           'High protein for muscle repair\nRich in vitamin B12 for energy\nPotatoes provide potassium for heart health\nCarrots boost vitamin A for vision',
