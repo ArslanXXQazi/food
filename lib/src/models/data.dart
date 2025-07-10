@@ -1374,7 +1374,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '380',
       healthBenefits: 'Plant-based protein, high fiber',
       allergyWarning: 'Contains sesame',
-      image: 'https://ilovefalafel.com.au/wp-content/uploads/2023/08/beirut-falafel-copy.jpg',
+      image: 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/5252b1a1301bbff2428b4724.jpg',
       ingredients: [
         '2 cups chickpeas',
         '1 onion',
@@ -1399,7 +1399,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '420',
       healthBenefits: 'Anti-inflammatory spices',
       allergyWarning: 'Contains coconut',
-      image: 'https://zenaskitchen.com/wp-content/uploads/2022/09/thai-green-chicken-curry.jpg',
+      image: 'https://getinspiredeveryday.com/wp-content/uploads/2022/05/Thai-Green-Curry-Get-Inspired-Everyday-4.jpg',
       ingredients: [
         '400ml coconut milk',
         '2 tbsp green curry paste',
@@ -1424,7 +1424,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '580',
       healthBenefits: 'Iron-rich, high protein',
       allergyWarning: 'Contains pork',
-      image: 'https://www.foodandwine.com/thmb/Jr3H4e5F4_2eHnOGKSm4jdY5bF0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Feijoada-FT-RECIPE0323-2ed2fbae5e0c4110b5bb522c6d7e0eac.jpg',
+      image: 'https://easybrazilianfood.com/wp-content/uploads/2022/05/Feijoada-Rice-and-Beans-Brazilian-Angle-SQUARE.jpeg',
       ingredients: [
         '2 cups black beans',
         '500g smoked sausage',
@@ -1471,7 +1471,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '380',
       healthBenefits: 'High in antioxidants',
       allergyWarning: '',
-      image: 'https://www.littlepotatoes.com/wp-content/uploads/2023/01/Slow-Cooker-Moroccan-Tagine-Murray-Bancroft-2017-1-1160x465.jpg',
+      image: 'https://en-chatelaine.mblycdn.com/ench/resized/2020/02/1600x1200/Tagine-istock-feature-image.jpg',
       ingredients: [
         'Chicken thighs',
         '1 onion',
@@ -1495,7 +1495,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '280',
       healthBenefits: 'High in omega-3, vitamin C',
       allergyWarning: 'Contains fish',
-      image: 'https://cuscolodgehotel.com/wp-content/uploads/2024/09/peruvian-ceviche-11.webp',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuesmu3w9dQ4eDdl2sETqqLp0cbXaLyyIrgw&s',
       ingredients: [
         '500g white fish',
         '10 limes',
@@ -1542,7 +1542,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '210',
       healthBenefits: 'Antioxidant-rich',
       allergyWarning: 'Contains dairy',
-      image: 'https://www.rednumberone.com/wp-content/uploads/2017/03/WEB_DSC_0318_20170302_170302-2.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TCKlF2eWVWvdTCjX8U9J0NYX_14LeAv3rgXulbs6K0p9p1dmQqXjhU_tstGZl1zAACQ&usqp=CAU',
       ingredients: [
         '3 beets',
         'Potatoes',
@@ -1566,7 +1566,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '550',
       healthBenefits: 'Comfort food',
       allergyWarning: '',
-      image: 'https://asianinspirations.com.au/wp-content/uploads/2019/07/R00376-Hainanese_Chicken_Rice-2.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJQGFPvHc36AISGwrBedBs7B7GwiwhnHIWQ&s',
       ingredients: [
         'Whole chicken',
         'Ginger',
@@ -1612,7 +1612,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '320',
       healthBenefits: 'Portable meal',
       allergyWarning: 'Contains gluten',
-      image: 'https://cookmomma.com/wp-content/uploads/2020/08/empanadas-2269803_1920.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT58352dAG2UyTJKOSO1glPmxAQqaj7wlhfng&s',
       ingredients: [
         'Flour',
         'Beef',
@@ -1659,7 +1659,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '380',
       healthBenefits: 'Comfort food',
       allergyWarning: 'Contains gluten, dairy',
-      image: 'https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/08/pierogi-1.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThI_Coy703O3GQV4Vhe5qtmH3YGhy56CwbOQ&s',
       ingredients: [
         'Flour',
         'Potatoes',
