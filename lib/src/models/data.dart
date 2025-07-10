@@ -43,7 +43,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Slow-releasing energy from layered dough\nAntioxidants in dark chocolate\nCalcium from butter\nProbiotics in fermented dough',
       allergyWarning: 'Contains gluten, dairy',
       image:
-          'https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/138-3-large.jpg?itok=bLozZKH0',
+          'https://media.istockphoto.com/id/180824921/photo/fresh-chocolate-croissants-on-a-plate.jpg?s=612x612&w=0&k=20&c=Q6fUlJzjMM3GCj2h1KKQT4R_xzObpWyQDQ7HB55CbAk=',
       ingredients: [
         '1 sheet puff pastry',
         '4 dark chocolate batons',
@@ -150,7 +150,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Complete protein from egg and rice\nProbiotics in fermented soy\nQuick digestion\nAmino acids for muscle repair',
       allergyWarning: 'Contains eggs',
       image:
-          'https://asianinspirations.com.au/wp-content/uploads/2020/04/R02522_Egg_on_Rice.jpg',
+          'https://www.japanesefoodguide.com/wp-content/uploads/2022/09/tkg-tamago-kake-gohan-japanese-breakfast-1024x683.jpg',
       ingredients: [
         '1 cup cooked rice',
         '1 fresh egg',
@@ -176,7 +176,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Probiotics from fermented batter\nTurmeric has anti-inflammatory properties\nPotatoes provide potassium\nCoconut chutney aids digestion',
       allergyWarning: 'Contains gluten',
       image:
-          'https://www.daringgourmet.com/wp-content/uploads/2023/06/Dosa-Recipe-3.jpg',
+          'https://t4.ftcdn.net/jpg/01/89/45/21/360_F_189452136_gJBG4ZRXY9NnZZCGV2s8QhObmpeerJTO.jpg',
       ingredients: [
         '1 cup dosa batter',
         '1/2 cup potato masala',
@@ -201,7 +201,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Protein-packed eggs\nCalcium from Parmesan\nZucchini provides fiber\nOlive oil contains healthy fats',
       allergyWarning: 'Contains eggs, dairy',
       image:
-          'https://www.misya.info/wp-content/uploads/2017/07/Frittata-di-verdure-al-forno.jpg',
+          'https://cdn-aboak.nitrocdn.com/QJsLnWfsWAiuukSIMowyVEHtotvSQZoR/assets/images/optimized/rev-ca18e1d/www.slenderkitchen.com/sites/default/files/styles/featured_1500/public/recipe_images/italian-frittata.jpg',
       ingredients: [
         '4 eggs',
         '1 zucchini',
@@ -301,7 +301,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Lycopene from cooked tomatoes\nProtein-rich eggs\nAnti-inflammatory spices\nVitamin C from peppers',
       allergyWarning: 'Contains eggs',
       image:
-          'https://www.playfulcooking.com/wp-content/uploads/2023/06/shakshuka-02.jpg',
+          'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/12/Shakshuka-3-2-1024x1536.jpg',
       ingredients: [
         '3 eggs',
         '2 tomatoes',
@@ -327,7 +327,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Plant-based protein\nHigh in dietary fiber\nGarlic supports immunity\nLemon provides vitamin C',
       allergyWarning: '',
       image:
-          'https://dailydish.co.uk/wp-content/uploads/2021/07/Ful-Medames-hero-square-1.jpg',
+          'https://www.unicornsinthekitchen.com/wp-content/uploads/2022/07/Foul-mudammas-3.1200px.jpg',
       ingredients: [
         '1 cup fava beans',
         '2 garlic cloves',
@@ -379,7 +379,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Gluten-free\nCalcium from cheese\nResistant starch aids digestion\nProtein-rich',
       allergyWarning: 'Contains dairy, eggs',
       image:
-          'https://www.sidechef.com/recipe/16b9a5ae-9a54-43de-af76-17cddd0cddcb.jpg',
+          'https://cdn.shopify.com/s/files/1/0493/0558/3773/files/DSC_1394.jpg?v=1751431546',
       ingredients: [
         '2 cups tapioca flour',
         '1 cup grated Parmesan',
@@ -534,7 +534,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Calcium from custard\nCinnamon regulates blood sugar\nEggs provide protein\nEnergy-dense',
       allergyWarning: 'Contains gluten, dairy, eggs',
       image:
-          'https://www.livingtours.com/public/blog/posts/20200123161347-reQkxvU6.jpg',
+          'https://silversea-discover.imgix.net/2022/06/Portugals-Pastal.jpeg?auto=compress%2Cformat&ixlib=php-3.3.1',
       ingredients: [
         '1 sheet puff pastry',
         '3 egg yolks',
@@ -559,7 +559,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'High calcium from cheese\nProtein-rich\nAntioxidants from berries\nSlow-digesting carbs',
       allergyWarning: 'Contains dairy, eggs, gluten',
       image:
-          'https://www.babaganosh.org/wp-content/uploads/2015/06/syrniki-recipe-russian-cheese-pancakes-2.jpg',
+          'https://i.ytimg.com/vi/qbHpUxsSeqI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3N126UOBC_wc1jFL6EUD8CNx4Ew',
       ingredients: [
         '200g farmer cheese',
         '2 tbsp flour',
@@ -661,7 +661,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Protein from sausage\nFiber from whole grain bun\nVitamin C in relish\nSpices boost metabolism',
       allergyWarning: 'Contains gluten',
       image:
-          'https://finglobalwp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/08043325/boerewors-rolls.jpg',
+          'https://www.shutterstock.com/image-photo/close-boerewors-roll-onions-tomato-600nw-2238901853.jpg',
       ingredients: [
         '1 boerewors sausage',
         '1 whole wheat roll',
@@ -736,7 +736,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       healthBenefits:
           'Chickpeas provide plant protein\nSemolina offers energy\nCardamom aids digestion\nHealthy fats from ghee',
       allergyWarning: 'Contains gluten',
-      image: 'https://lalqilaperth.com.au/wp-content/uploads/2024/07/Halwa-Puri.jpg',
+      image: 'https://media.istockphoto.com/id/502759669/photo/halwa-puri-breakfast.jpg?s=612x612&w=0&k=20&c=pAVZBHulOXX7o3HOXgmRQAGsTFJuoAL3UbZirxLnpJg=',
       ingredients: [
         '2 cups flour',
         '1/2 cup semolina',
@@ -790,7 +790,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Medium-chain fats from coconut\nProtein from eggs and fish\nFiber from cucumber\nCapsaicin boosts metabolism',
       allergyWarning: 'Contains fish, eggs',
       image:
-          'https://recipeguru.org/wp-content/uploads/2020/05/nasi-lemak-recipe-626x352.jpeg',
+          'https://thumbs.dreamstime.com/b/nasi-lemak-coconut-milk-rice-malaysian-cuisine-isolated-white-background-47130447.jpg',
       ingredients: [
         '1 cup coconut rice',
         '2 tbsp sambal',
@@ -844,7 +844,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Collagen supports joint health\nIron-rich organ meats\nProtein for muscle repair\nGarlic boosts immunity',
       allergyWarning: 'Contains gluten',
       image:
-          'https://uniqop.com/wp-content/uploads/2020/06/Kale-Pache-2-scaled.jpg',
+          'https://pbs.twimg.com/media/GMqhzjcW4AEBU7z.jpg',
       ingredients: [
         '1 sheep head',
         '4 hooves',
@@ -925,7 +925,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Eggs provide protein\nCalcium from milk\nAntioxidants in berries\nLow in added sugar',
       allergyWarning: 'Contains eggs, dairy',
       image:
-          'https://images.getrecipekit.com/20210923224100-sm-finnish-pannukakku.png?aspect_ratio=16:9&quality=90&auto_optimize=medium',
+          'https://www.whiskware.com/cdn/shop/articles/SM_Finnish_Pannukakku.png?v=1635275985&width=1080',
       ingredients: [
         '1 cup flour',
         '2 eggs',
@@ -978,7 +978,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Protein from eggs\nCalcium from milk\nVitamin C from berries\nPearl sugar provides quick energy',
       allergyWarning: 'Contains gluten, dairy, eggs',
       image:
-          'https://journeythrougheurope.com/wp-content/uploads/2024/04/robby-mccullough-ieBE8fYsiJI-unsplash-1920x1280.jpg',
+          'https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/fe61e5e4-06a2-4a82-8f3a-6d5d98e7af62/Waffles_4x2-2.jpg?w=3840&q=85&auto=format&lossless=1',
       ingredients: [
         '2 cups flour',
         '1 tbsp yeast',
@@ -1058,7 +1058,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Soluble fiber lowers cholesterol\nSlow-releasing energy\nIron-rich oats\nCalcium from cream',
       allergyWarning: 'Contains gluten',
       image:
-          'https://scottishscran.com/wp-content/uploads/2023/06/Porridge-1200-5-735x490.jpg',
+          'https://traditionalplantbasedcooking.com/wp-content/uploads/2021/03/7C85BF76-F0F2-4CBF-A7DB-637B19976C44-scaled.jpeg',
       ingredients: [
         '1/2 cup steel-cut oats',
         '2 cups water',
@@ -1085,7 +1085,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Calcium from cheese\nWhole grain fiber\nMustard seeds aid digestion\nProtein-rich',
       allergyWarning: 'Contains gluten, dairy',
       image:
-          'https://www.thespruceeats.com/thmb/UuBoLkVinOv-CqbFhwSFpF-eA2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/welsh-rarebit-133638354-58a70f9a3df78c345b6a29bd.jpg',
+          'https://assets.unileversolutions.com/recipes-v2/109404.jpg',
       ingredients: [
         '2 slices whole grain bread',
         '1 cup cheddar',
@@ -1216,7 +1216,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Protein from eggs\nHealthy fats from coconut\nEnergy from toast\nCalcium from kaya',
       allergyWarning: 'Contains gluten, eggs',
       image:
-          'https://www.seriouseats.com/thmb/_plZgEI0v2JPznLAMJRynBzUuuM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20240223-SEA-KayaToast-MichelleYip-04hero-d7da174497f64fd196ef1accb85b5e8a.jpg',
+          'http://beinspired.au/wp-content/uploads/2023/10/Kaya-Toast.jpeg',
       ingredients: [
         '2 slices white bread',
         '2 tbsp kaya jam',
@@ -1242,7 +1242,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Protein from beef and egg\nIron-rich combination\nEnergy from rice\nComfort food benefits',
       allergyWarning: 'Contains eggs',
       image:
-          'https://www.allrecipes.com/thmb/BYg81Lbke1lajl92vKoTrnAagV8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/272767-ChefJohnsLocoMoco-ddmfs-3x4-1043-ba56ad345fd64cd384f94032fea073f0.jpg',
+          'https://images.squarespace-cdn.com/content/v1/602bd23b04cc80278e115ed4/6951838f-ecb5-486c-bd94-de653c5ffa3b/Loco+Moco.jpg',
       ingredients: [
         '1 cup white rice',
         '1 beef patty',
@@ -1296,7 +1296,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
           'Plant-based protein\nFiber from chickpeas\nProbiotics in yogurt\nTamarind aids digestion',
       allergyWarning: '',
       image:
-          'https://www.masala.tv/wp-content/uploads/2018/08/1-39.jpg',
+          'https://i.ytimg.com/vi/xjZpRj3Akt8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB548VqU_0-7L1acND2hvYh5OEwCQ',
       ingredients: [
         '2 cups boiled chickpeas',
         '1 potato (boiled)',
