@@ -1348,7 +1348,7 @@ final Map<String, List<Recipe>> categoryRecipes = {
       calories: '350',
       healthBenefits: 'Rich in collagen, hydrating',
       allergyWarning: 'Contains gluten (in noodles)',
-      image: 'https://www.seriouseats.com/thmb/U-hWLnDmSZ8_6v07v0yc-8uYxrE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__06__20120629-pho-food-lab-19-c94bfd465387441f83ee8939fdf67dbe.jpg',
+      image: 'https://hot-thai-kitchen.com/wp-content/uploads/2023/04/pho-beef-blog.jpg',
       ingredients: [
         '200g rice noodles',
         '1L beef broth',
